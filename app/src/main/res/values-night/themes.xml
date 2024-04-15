@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.WeatherApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Personalização do tema escuro -->
+        <item name="colorPrimary">#90CAF9</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorSecondary">#80CBC4</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+    </style>
+</resources>
