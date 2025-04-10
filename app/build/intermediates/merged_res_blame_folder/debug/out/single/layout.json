@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.example.weatherapp-mergeDebugResources-36:/layout/activity_main.xml",
+        "source": "com.example.weatherapp-main-39:/layout/activity_main.xml"
+    }
+]
