@@ -1,1 +1,2 @@
 Parte 4 - Animações Lottie placeholders adicionadas (sunny, cloudy, windy, light_rain)Commit dia 1: Atualizações no app de clima
+Commit dia 2: Atualizações no app de clima
