@@ -27,5 +27,3 @@ git clone https://github.com/Chernoobyl/App-Clima.git
 ## Licença
 MIT. Sinta-se livre para usar e modificar.
 
-## Autor
-Feito com ❤️ por Seu Nome
