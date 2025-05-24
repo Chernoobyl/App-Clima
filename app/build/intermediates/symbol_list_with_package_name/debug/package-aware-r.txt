@@ -3157,6 +3157,7 @@ id checkbox
 id checked
 id chronometer
 id circle_center
+id cityText
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -3182,6 +3183,7 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
+id descText
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3274,7 +3276,6 @@ id listMode
 id list_item
 id lottie_layer_name
 id m3_side_sheet
-id main
 id marquee
 id masked
 id match_parent
@@ -3465,6 +3466,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id tempText
 id text
 id text2
 id textEnd

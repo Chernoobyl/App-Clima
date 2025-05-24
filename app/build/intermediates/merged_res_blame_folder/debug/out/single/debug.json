@@ -1,66 +1,70 @@
 [
     {
-        "merged": "com.example.weatherapp-merged_res-37:/raw_windy.json.flat",
-        "source": "com.example.weatherapp-main-39:/raw/windy.json"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/raw_light_rain.json.flat",
-        "source": "com.example.weatherapp-main-39:/raw/light_rain.json"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/raw_cloudy.json.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/raw/cloudy.json"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.example.weatherapp-main-39:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/raw_rain_light.json.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/raw/rain_light.json"
+    },
+    {
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "com.example.weatherapp-merged_res-37:/layout_activity_main.xml.flat",
         "source": "com.example.weatherapp-main-39:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.example.weatherapp-main-39:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/raw_sunny.json.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/raw/sunny.json"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.example.weatherapp-main-39:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/raw_windy.json.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/raw/windy.json"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/raw_cloudy.json.flat",
-        "source": "com.example.weatherapp-main-39:/raw/cloudy.json"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.example.weatherapp-main-39:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.weatherapp-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/raw_rain_light.json.flat",
-        "source": "com.example.weatherapp-main-39:/raw/rain_light.json"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.weatherapp-main-39:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/raw_sunny.json.flat",
-        "source": "com.example.weatherapp-main-39:/raw/sunny.json"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/raw_light_rain.json.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/raw/light_rain.json"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.weatherapp-main-39:/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.example.weatherapp-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.example.weatherapp-main-39:/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.example.weatherapp-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.weatherapp-main-39:/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.example.weatherapp-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.weatherapp-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/rafael/.gradle/daemon/8.9/com.example.weatherapp-main-39:/mipmap-mdpi/ic_launcher_round.png"
     }
 ]

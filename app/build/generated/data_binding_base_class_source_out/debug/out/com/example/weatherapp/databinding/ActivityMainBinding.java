@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -23,16 +24,25 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button changeLocationButton;
 
   @NonNull
-  public final LinearLayout main;
+  public final TextView cityText;
+
+  @NonNull
+  public final TextView descText;
+
+  @NonNull
+  public final TextView tempText;
 
   @NonNull
   public final Button toggleThemeButton;
 
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button changeLocationButton,
-      @NonNull LinearLayout main, @NonNull Button toggleThemeButton) {
+      @NonNull TextView cityText, @NonNull TextView descText, @NonNull TextView tempText,
+      @NonNull Button toggleThemeButton) {
     this.rootView = rootView;
     this.changeLocationButton = changeLocationButton;
-    this.main = main;
+    this.cityText = cityText;
+    this.descText = descText;
+    this.tempText = tempText;
     this.toggleThemeButton = toggleThemeButton;
   }
 
@@ -69,7 +79,23 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      LinearLayout main = (LinearLayout) rootView;
+      id = R.id.cityText;
+      TextView cityText = ViewBindings.findChildViewById(rootView, id);
+      if (cityText == null) {
+        break missingId;
+      }
+
+      id = R.id.descText;
+      TextView descText = ViewBindings.findChildViewById(rootView, id);
+      if (descText == null) {
+        break missingId;
+      }
+
+      id = R.id.tempText;
+      TextView tempText = ViewBindings.findChildViewById(rootView, id);
+      if (tempText == null) {
+        break missingId;
+      }
 
       id = R.id.toggleThemeButton;
       Button toggleThemeButton = ViewBindings.findChildViewById(rootView, id);
@@ -77,8 +103,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, changeLocationButton, main,
-          toggleThemeButton);
+      return new ActivityMainBinding((LinearLayout) rootView, changeLocationButton, cityText,
+          descText, tempText, toggleThemeButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
