@@ -78,6 +78,15 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if (requestCode == 1 && grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            fetchLocation()
+        } else if (requestCode == 1) {
+            Toast.makeText(this, "Permissão negada", Toast.LENGTH_SHORT).show()
+        }
+    }
+
     private fun fetchWeather(lat: Double, lon: Double) {
         val service = RetrofitClient.instance.create(WeatherService::class.java)
         service.getWeather(lat, lon, API_KEY).enqueue(object : Callback<WeatherResponse> {
