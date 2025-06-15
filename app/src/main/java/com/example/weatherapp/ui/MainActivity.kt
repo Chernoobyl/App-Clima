@@ -28,6 +28,17 @@ class MainActivity : AppCompatActivity() {
 
     private val API_KEY = "aee9c236caab1be6a995f2d1ed348515"
 
+    private fun updateWeatherAnimation(icon: String) {
+        val animation = when (icon) {
+            "01d", "01n" -> R.raw.sunny
+            "02d", "02n", "03d", "03n", "04d", "04n" -> R.raw.cloudy
+            "09d", "09n", "10d", "10n", "11d", "11n" -> R.raw.light_rain
+            else -> R.raw.windy
+        }
+        binding.weatherAnimationView.setAnimation(animation)
+        binding.weatherAnimationView.playAnimation()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.Theme_WeatherApp_Light)
         super.onCreate(savedInstanceState)
@@ -97,6 +108,7 @@ class MainActivity : AppCompatActivity() {
                         binding.cityText.text = it.name
                         binding.tempText.text = "${it.main.temp}°C"
                         binding.descText.text = it.weather.first().description
+                        updateWeatherAnimation(it.weather.first().icon)
                     }
                 } else {
                     Toast.makeText(this@MainActivity, "Erro ao obter clima", Toast.LENGTH_SHORT).show()
@@ -119,6 +131,7 @@ class MainActivity : AppCompatActivity() {
                         binding.cityText.text = it.name
                         binding.tempText.text = "${it.main.temp}°C"
                         binding.descText.text = it.weather.first().description
+                        updateWeatherAnimation(it.weather.first().icon)
                     }
                 } else {
                     Toast.makeText(this@MainActivity, "Cidade não encontrada", Toast.LENGTH_SHORT).show()
