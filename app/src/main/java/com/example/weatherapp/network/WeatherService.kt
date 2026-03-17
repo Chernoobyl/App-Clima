@@ -14,14 +14,6 @@ interface WeatherService {
         @Query("lang") lang: String = "pt_br"
     ): Call<WeatherResponse>
     @GET("weather")
-    fun getWeatherByQuery(
-        @Query("q") query: String,
-        @Query("appid") apiKey: String,
-        @Query("units") units: String = "metric",
-        @Query("lang") lang: String = "pt_br"
-    ): Call<WeatherResponse>
-
-    @GET("weather")
     fun getWeather(
         @Query("lat") lat: Double,
         @Query("lon") lon: Double,

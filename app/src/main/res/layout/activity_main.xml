@@ -1,57 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
 
     <TextView
         android:id="@+id/cityText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:text="Cidade"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="12dp"/>
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="6dp"
+        android:contentDescription="@string/weather_icon_description"
+        android:src="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/tempText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:text="20°C"
         android:textSize="40sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="12dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/descText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:text="Ensolarado"
-        android:textSize="18sp"
-        android:layout_marginBottom="24dp"/>
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/extraInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Umidade: --% • Vento: -- m/s"
+        android:textSize="14sp" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/weatherAnimationView"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginBottom="24dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/sunny"
-        android:layout_marginBottom="24dp"/>
+        app:lottie_rawRes="@raw/sunny" />
 
     <Button
         android:id="@+id/changeLocationButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mudar Localização"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:text="Mudar Localização" />
 
     <Button
         android:id="@+id/toggleThemeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Alternar Tema"/>
+        android:text="Alternar Tema" />
 </LinearLayout>

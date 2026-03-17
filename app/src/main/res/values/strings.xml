@@ -1,0 +1,4 @@
+<resources>
+    <string name="weather_icon_description">Ícone do clima atual</string>
+    <string name="weather_extra_info">Umidade: %1$d%% • Vento: %2$.1f m/s</string>
+</resources>
